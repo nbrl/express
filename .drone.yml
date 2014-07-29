@@ -1,4 +1,4 @@
-image: nbrl/express
+image: centos:centos6
 
 script:
  - git clone git@github.com:nbrl/orchestration.git $ORCHESTRATION_HOME

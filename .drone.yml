@@ -1,5 +1,0 @@
-image: nbrl/express
-
-script:
- - npm install
- - npm test

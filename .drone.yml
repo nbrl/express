@@ -1,8 +1,2 @@
-image: centos:centos6
+image: Dockerfile
 
-script:
- - git clone git@github.com:nbrl/orchestration.git $ORCHESTRATION_HOME
- - git -C $ORCHESTRATION_HOME pull
-
-cache:
- - orchestration
